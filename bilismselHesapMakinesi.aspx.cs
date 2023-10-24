@@ -43,12 +43,20 @@ namespace HesapMakinesi
 
         protected void Button26_Click(object sender, EventArgs e)
         {
-            //hesapla butonu
-            string ifade = "3 + 4 + 5 + 6";
 
+            //hesapla butonu
+            string ifade = TextBox1.Text.ToString();
+            //string ifade = "3 + 4 + 5 + 6";
+            //string ifade = "3 + 4";
+            //string ifade = " ";
             //ifade = calculator.nKadarkarakterSil(ifade, 4,"7");
             // Response.Write(ifade);
-            Response.Write(calculator.ifadeHesapla(ifade));
+            //Response.Write(calculator.ifadeHesaplaYeni(ifade));
+            //Response.Write(calculator.test());
+            //Response.Write(calculator.ifadeHesaplaEski(ifade));
+            //Response.Write(calculator.ifadeHesaplaChatgbt(ifade));
+            Response.Write(calculator.ifadeHesaplaChatgbt2(ifade));
+
             Response.Write("<br>");
             Response.Write(ifade);
 

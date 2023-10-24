@@ -82,7 +82,7 @@ namespace HesapMakinesi
         {
             init();
             //hesapla butonu
-            TextBox3.Text = calculator.ifadeHesapla(TextBox4.Text.ToString()).ToString();
+            //TextBox3.Text = calculator.ifadeHesapla(TextBox4.Text.ToString()).ToString();
         }
 
     }
